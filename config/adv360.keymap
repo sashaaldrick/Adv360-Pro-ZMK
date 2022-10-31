@@ -5,9 +5,6 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
-    behaviors {
-      #include "macros.dtsi"
-      
       macros {
         alfred: alfred {
             label = "alfred";
@@ -61,10 +58,13 @@
                 , <&macro_release &kp LCTRL>
                 ;
         };        
-        
-        
-     };
+    };
+};
 
+/ {
+    behaviors {
+      #include "macros.dtsi"
+      
       hm: homerow_mods {
           compatible = "zmk,behavior-hold-tap";
           label = "HOMEROW_MODS";
