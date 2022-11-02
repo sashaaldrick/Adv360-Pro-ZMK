@@ -28,7 +28,7 @@
     default_layer {
       bindings = <
         &kp GRAVE &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &none                                                                       &kp EQUAL &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS
-        &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &kp LG(RIGHT)                                                               &K_NEXT &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BKSP
+        &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &kp LG(RIGHT)                                                               &kp K_NEXT &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BKSP
         &mt LCTRL ESC &kp A &kp S    &kp D    &kp F      &kp G  &kp LG(RIGHT)  &kp LCTRL &kp K_MUTE                  &kp K_VOL_UP &kp K_VOL_DN  &K_PLAY_PAUSE &kp H  &kp J  &kp K  &kp L  &kp SEMI &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                 &none &none &kp HOME     &none &none  &kp PG_UP &none &none           &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp BSLH
         &kp LCTRL &kp GRAVE &kp CAPS &mt LALT DOWN &mt LGUI UP                 &kp SPACE  &kp LG(SPACE) &kp LC(LG(Z)) &kp LC(LG(C)) &mo 1 &kp ENTER         &kp LEFT &kp RIGHT &kp LBKT &kp RBKT &none
